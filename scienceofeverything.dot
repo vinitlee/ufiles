@@ -52,6 +52,13 @@ digraph coke {
     brain_chem -> neuroscience
     brain_chem -> AI
 
+    psych_color_theory -> neuroscience
+    psych_shape_theory -> neuroscience
+
+    psych_color_theory -> AI
+    psych_shape_theory -> AI
+
+    neuroscience -> GCI
     AI -> GCI
 
     GCI -> humans_as_machines
