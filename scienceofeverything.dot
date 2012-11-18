@@ -3,7 +3,7 @@ digraph coke {
     coke -> label
     coke -> liquid
     coke -> history
-    
+
     bottle -> glass
     bottle -> bottling_process
 
@@ -48,4 +48,15 @@ digraph coke {
     flavorings -> HFCS
 
     caffeine -> brain_chem
+
+    brain_chem -> neuroscience
+    brain_chem -> AI
+
+    AI -> GCI
+
+    GCI -> humans_as_machines
+
+    humans_as_machines -> differentiation_of_humans
+
+    differentiation_of_humans -> judeochristian_beliefs
 }
