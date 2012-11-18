@@ -16,9 +16,6 @@ digraph coke {
 
     plastic -> manufacturing -> injection_molding
 
-    bottling_process -> production_lines
-    bottling_process -> manufacturing
-
     manufacturing -> how_production_lines_work
 
     label -> logo
