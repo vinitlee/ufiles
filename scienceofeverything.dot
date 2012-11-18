@@ -3,15 +3,33 @@ digraph coke {
     coke -> label
     coke -> liquid
     coke -> history
-                                                                                                                
     bottle -> glass
     bottle -> bottling_process
-                                                                                                            
+
     bottling_process -> production_lines
     bottling_process -> manufacturing
-                                                                                                                    
+
+    glass -> plastic
+    glass -> steel
+    glass -> aluminum
+
+    plastic -> manufacturing -> injection_molding
+
+    bottling_process -> production_lines
+    bottling_process -> manufacturing
+
+    manufacturing -> how_production_lines_work
+
+    label -> logo
+
+    logo -> edwardian_script
+    logo -> other_logos
+
+    other_logos -> psych_shape_theory
+    other_logos -> psych_color_theory
+
     liquid -> flavorings
-    
+
     flavorings -> caffeine
     flavorings -> HFCS
 }
