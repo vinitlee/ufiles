@@ -23,6 +23,17 @@ digraph coke {
     logo -> edwardian_script
     logo -> other_logos
 
+    edwardian_script -> calligraphy
+    edwardian_script -> typography
+    edwardian_script -> signmaking
+
+    signmaking -> CAD
+
+    typography -> CAD
+
+    calligraphy -> quill
+    calligraphy -> brush
+
     other_logos -> psych_shape_theory
     other_logos -> psych_color_theory
 
