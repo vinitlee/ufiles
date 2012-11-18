@@ -3,6 +3,7 @@ digraph coke {
     coke -> label
     coke -> liquid
     coke -> history
+    
     bottle -> glass
     bottle -> bottling_process
 
@@ -29,7 +30,11 @@ digraph coke {
     other_logos -> psych_color_theory
 
     liquid -> flavorings
+    liquid -> color
+    liquid -> carbonation
 
     flavorings -> caffeine
     flavorings -> HFCS
+
+    caffeine -> brain_chem
 }
