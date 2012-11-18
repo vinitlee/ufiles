@@ -41,6 +41,9 @@ digraph coke {
     liquid -> color
     liquid -> carbonation
 
+    carbonation -> Henrys_Law
+    carbonation -> Mentos_reaction
+
     flavorings -> caffeine
     flavorings -> HFCS
 
