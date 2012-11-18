@@ -3,13 +3,13 @@ digraph coke {
     coke -> label
     coke -> liquid
     coke -> history
-
+                                                                                                                
     bottle -> glass
     bottle -> bottling_process
-
+                                                                                                            
     bottling_process -> production_lines
     bottling_process -> manufacturing
-    
+                                                                                                                    
     liquid -> flavorings
     
     flavorings -> caffeine
